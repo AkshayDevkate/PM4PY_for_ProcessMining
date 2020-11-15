@@ -39,7 +39,41 @@
   A .zip file containing Windows 64-bit Miniconda 3.8 distribution and all the dependencies already installed could be found at clicking
   [Click here to download .zip file](https://drive.google.com/file/d/1KzIntSeIPJrjSzsrD93MZHAW4au-Wbgm/view)
   
+  __ Install PM4PY on macOS__
   
+  You can chosse between an Docker image or the classical installation process.
+  
+  1. Installation via Docker
+  
+  A Docker image is available on the Docker hub and could be retrieved through the command.
+  
+  >docker pull javert899/pm4py:latest
+  
+  It could be then run trough the following command.
+  
+  >docker run -it javert899/pm4py:latest bash
+  
+  2. Classical Installation
+  
+  This section provides you help to run PM4Py without using Docker.
+  
+   a. Install Anaconda/Miniconda
+  
+   Anaconda 2020.07 (if not already installed; it is not necessary if Miniconda is installed) could be retrieved by [clicking here]().
+
+   Miniconda (if not already installed; it is not necessary if Anaconda is installed) could be retrieved by [clicking here]().
+   
+   b. Install the PM4Py package
+   
+   In order to install PM4Py and its dependencies, the following command could be provided:
+   
+   >pip install pm4py
+   
+   To check if everything is done correctly, the following command can be used.
+   
+   >python -c "import pm4py"
+   
+   
   
   
  
