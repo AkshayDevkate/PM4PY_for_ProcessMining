@@ -39,6 +39,9 @@
   A .zip file containing Windows 64-bit Miniconda 3.8 distribution and all the dependencies already installed could be found at clicking
   [Click here to download .zip file](https://drive.google.com/file/d/1KzIntSeIPJrjSzsrD93MZHAW4au-Wbgm/view)
   
+  
+  ![Image](visualdownloadsite.png)
+  
  
  
  __Install PM4PY on macOS__
