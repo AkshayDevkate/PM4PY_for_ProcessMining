@@ -73,6 +73,44 @@
    
    >python -c "import pm4py"
    
+   __Installing PM4PY on Linux Operating System__
+   
+   You can choose between an Docker image or the classical installation process.
+   
+   1. Installation via Docker
+   
+   A Docker image is available on the Docker hub and could be retrieved through the command.
+   
+   >docker pull javert899/pm4py:latest
+   
+   It could be then run trough the following command.
+   
+   >docker run -it javert899/pm4py:latest bash
+
+   2. Classical Installation
+   
+   a. Install C/C++ compiler
+   
+   Most distributions default install include already the gcc and g++ compilers, respectively compiling C and C++ code. In order to check the presence of gcc and      g++ on your current distribution, along with their version, one of following commands can be used.
+   
+   >gcc -v
+   
+   >g++ -v
+   
+   If they are not installed, refer to your distribution support for instructions on how to install them.
+   
+   b. Install GraphViz
+   
+   The presence of GraphViz is required on the system. To check the presence of GraphViz, please give the following command.
+   
+   >dot -h
+   
+   If GraphViz is not installed, you will get an error from the output of that program. If GraphViz is not installed, you will get an error from the output of that    program. To install GraphViz, a command depending on the distribution should be given. We provide some commands for the most widely used distributions.
+
+   For Debian/Ubuntu, the following command can be used:
+   
+   >apt-get install graphviz
+   
    
   
   
