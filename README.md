@@ -28,6 +28,18 @@
    
    > C:\>cd C:\Users\johndoe\pm4py-source
   
+  4. Install PM4PY
+
+   In order to install PM4Py and its dependencies, the following command should be executed:
+   
+   >pip install pm4py
+   
+  5..zip file
+  
+  A .zip file containing Windows 64-bit Miniconda 3.8 distribution and all the dependencies already installed could be found at clicking
+  [Click here to download .zip file](https://drive.google.com/file/d/1KzIntSeIPJrjSzsrD93MZHAW4au-Wbgm/view)
+  
+  
   
   
  
