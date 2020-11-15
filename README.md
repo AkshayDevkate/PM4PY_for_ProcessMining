@@ -39,7 +39,9 @@
   A .zip file containing Windows 64-bit Miniconda 3.8 distribution and all the dependencies already installed could be found at clicking
   [Click here to download .zip file](https://drive.google.com/file/d/1KzIntSeIPJrjSzsrD93MZHAW4au-Wbgm/view)
   
-  __ Install PM4PY on macOS__
+ 
+ 
+ __Install PM4PY on macOS__
   
   You can chosse between an Docker image or the classical installation process.
   
@@ -72,6 +74,8 @@
    To check if everything is done correctly, the following command can be used.
    
    >python -c "import pm4py"
+   
+   
    
    __Installing PM4PY on Linux Operating System__
    
@@ -111,8 +115,37 @@
    
    >apt-get install graphviz
    
+   c. Install Tkinter
    
+   Tkinter is required by Python but could not be installed with pip. It is required to install it through the distribution package manager.
+
+   For Debian/Ubuntu, you can use the following command:
+   
+   >apt-get install python3-tk
+   
+   d. Other libraries
+   
+   Some other libraries are required to be manually installed on some platforms (like ARM)
+   
+   >apt install libblas-dev
+   >apt install liblapack-dev
+   >apt install libsuitesparse-dev
+   
+  e. Install Anaconda/Miniconda
   
+  Miniconda (if not already installed; it is not necessary if Anaconda is installed) could be retrieved by [clicking here]().
+
+  The 64 bit installer could be executed from the command line using the following instruction;
   
- 
+  >root@debian:~# bash Miniconda3-latest-Linux-x86_64.sh
+  
+  As the first step in the installation of Miniconda, it is required to read the license agreements. Press Enter key in order to read them, move with up and down     arrow keys in order to read the points, and then click q in order to quit the license agreements and accept/deny (yes/no) that.
+
+  Then, a path for the installation of Miniconda is required. The proposed path, that is inside the user directory, is proposed and could be accepted as-is. Then,   Miniconda asks if the user wants to add executables to the user path, it is convenient to say yes here
+  
+  f. Install the PM4Py package
+  
+  In order to install PM4Py and its dependencies, the following command could be provided:
+  
+  >pip install pm4py
  
