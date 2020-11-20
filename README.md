@@ -56,6 +56,7 @@
   __Exporting Data__
   
   [Click Here!](pm4pyexportieeexes.pdf) for step by step guide for exporting IEEE XES files
+  
   [Click Here!](pm4pyexportcsv.pdf) for step by step guide for exporting CSV files
   
   
