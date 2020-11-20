@@ -29,5 +29,5 @@
    [Click Here!](pm4pyimportieeexes.pdf) for step-by-step guide for importing IEEE XES files.
    IEEE XES is a standard format describing how event logs are stored. For more information about the format, please study the [IEEE XES Website!](http://www.xes-standard.org/)
    
-   [Click Here!]() for step-by-step guide for importing CSV files.
+   [Click Here!](pm4pyimportcsv.pdf) for step-by-step guide for importing CSV files.
    
