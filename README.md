@@ -27,5 +27,7 @@
   Find python function which provide simplified interface for __Importing IEEE XES__ and __Importing CSV__ files. 
    
    [Click Here!]() for step-by-step guide for importing IEEE XES files.
+   IEEE XES is a standard format describing how event logs are stored. For more information about the format, please study the [IEEE XES Website!](http://www.xes-standard.org/)
+   
    [Click Here!]() for step-by-step guide for importing CSV files.
    
