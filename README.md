@@ -53,4 +53,8 @@
   | |DEEP_COPY|boolean|false|(Same as TO_EVENT_STREAM)|
   
   
+  __Exporting Data__
+  
+  [Click Here!]() for step by step guide for exporting IEEE XES files
+  
   
