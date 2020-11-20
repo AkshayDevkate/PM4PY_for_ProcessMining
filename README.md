@@ -31,3 +31,10 @@
    
    [Click Here!](pm4pyimportcsv.pdf) for step-by-step guide for importing CSV files.
    
+   
+   
+  __Converting Event Data__
+  
+  In this section, we describe how to convert event log objects from one object type to another object type. As mentioned in the previous section, the conversion functionality of event logs is located in pm4py.objects.conversion.log.converter. There are three objects, which we are able to 'switch' between, i.e., Event Log, Event Stream and Data Frame objects. Please refer to the previous code snippet for an example of applying log conversion (applied when importing a CSV object). Finally, note that most algorithms internally use the converters, in order to be able to handle an input event data object of any form. In such a case, the default parameters are used.
+  
+  
