@@ -41,7 +41,7 @@
   In this section, we describe how to convert event log objects from one object type to another object type. As mentioned in the previous section, the conversion functionality of event logs is located in pm4py.objects.conversion.log.converter. There are three objects, which we are able to 'switch' between, i.e., Event Log, Event Stream and Data Frame objects. Please refer to the previous code snippet for an example of applying log conversion (applied when importing a CSV object). Finally, note that most algorithms internally use the converters, in order to be able to handle an input event data object of any form. In such a case, the default parameters are used.
   
   | Variant | Parameter Key | Type | Default | Description|
-  |:---|:----:|:---:|:---:|---:|
+  |:---|:----:|:---:|:---:|:---|
   |TO_EVENT_LOG|STREAM_POST_PROCESSING| Boolean | False | Removes events that have no type information.|
   | |CASE_ATTRIBUTE_PREFIX|string|'case:'|Any attribute (column in case of DF) with the prefix 'case:' is stored as a trace attribute.|
   | |	CASE_ID_KEY|	string|'case:concept:name'|Attribute (column in case of DF) that needs to be used to define traces.|
@@ -56,5 +56,6 @@
   __Exporting Data__
   
   [Click Here!]() for step by step guide for exporting IEEE XES files
+  [Click Here!]() for step by step guide for exporting CSV files
   
   
