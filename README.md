@@ -22,6 +22,9 @@
 
 ## Handling Event Data in PM4PY
 
+
+ __Importing Data__ 
+
   PM4PY offers simplified interface to import/export event logs. This provides restricted set of choices in comparison to normal interface moreover PM4PY also provides s simple interface to convert the formats of log data objects.
   
   Find python function which provide simplified interface for __Importing IEEE XES__ and __Importing CSV__ files. 
@@ -40,6 +43,8 @@
   | Variant | Parameter Key | Type | Default | Description|
   |:---|:----:|:---:|:---:|---:|
   |TO_EVENT_LOG|STREAM_POST_PROCESSING| Boolean | False | Removes events that have no type information.|
-  |
+  | |CASE_ATTRIBUTE_PREFIX|string|'case:'|Any attribute (column in case of DF) with the prefix 'case:' is stored as a trace attribute.|
+  | |	CASE_ID_KEY|	string|'case:concept:name'|Attribute (column in case of DF) that needs to be used to define traces.|
+  | |DEEP_COPY|
   
   
