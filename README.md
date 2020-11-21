@@ -64,6 +64,8 @@
   
   1. Filtering event data by time frames.
   
+   Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.pdf)
+  
   2. Filtering event on case performance / time interval.
   
   3. Filtering events on start activites. 
