@@ -59,4 +59,5 @@
   
   [Click Here!](pm4pyexportcsv.pdf) for step by step guide for exporting CSV files
   
+  *Note - At the present time PM4PY works with pandsas libaries to import data.As long as data can be loaded into a Pandas dataframe, PM4Py is reasonably able to work with such files. You can check the files supported by python pandas library [here!](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)*
   
