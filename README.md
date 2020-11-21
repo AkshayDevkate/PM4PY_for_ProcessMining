@@ -104,3 +104,16 @@
   | Invisible and duplicated tasks cannot be discovered | Invisible and duplicated tasks cannot be discovered | Detects short loops | Model is sound |
   | Discovered model might not be sound | Discovered model might not be sound | Does not guarantee a sound model | Most used process mining algorithm |
   |Weak against noise| Weak against noise |
+
+
+ 1. Alpha Miner 
+ 
+  The alpha miner is one of the most known Process Discovery algorithm and is able to find:
+
+   A Petri net model where all the transitions are visible and unique and correspond to classified events (for example, to activities).
+
+   An initial marking that describes the status of the Petri net model when a execution starts.
+
+   A final marking that describes the status of the Petri net model when a execution ends
+   
+  Find documentation on Alpha miner [here!]()
