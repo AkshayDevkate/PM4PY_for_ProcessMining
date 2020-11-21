@@ -64,19 +64,30 @@
   
   1. Filtering event data by time frames.
   
-   Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.pdf)
+   Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.docx)
   
   2. Filtering event on case performance / time interval.
-  
+   
+   Find user manual for filtering event data by case performace / time interval [here!](PM4PYfilteringCAsePerformance.pdf)
+   
   3. Filtering events on start activites. 
+   
+   Find user manual for filtering event data by start activities [here!](pm4pyfilteringstart.pdf)
   
   4. Filtering events on end activites.
+  
+   Find user manual for filtering event data by end activities [here!](PM4PYfilteringend.pdf)
   
   5. Filtering on varients.
       
       Variants is set of cases that share the same control flow perspective, so a set of cases that share the same classified events(activites) in the same order.
       
+      Find user manual for filtering event data by variants [here!](pm4pyfilteringvariants.pdf)
+      
   6. Filtering events on attribute values.
+  
+   Find user manual for filtering event data by attribute values [here!](pm4pyfilteringattributevalues.pdf)
+      
   
   7. Filtering events on numeric attribute values.
   
