@@ -76,7 +76,7 @@
   
   4. Filtering events on end activites.
   
-   Find user manual for filtering event data by end activities [here!](PM4PYfilteringend.pdf)
+      Find user manual for filtering event data by end activities [here!](PM4PYfilteringend.pdf)
   
   5. Filtering on varients.
       
