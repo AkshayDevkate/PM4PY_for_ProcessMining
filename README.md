@@ -22,7 +22,6 @@
 
 ## Handling Event Data in PM4PY
 
-
  __Importing Data__ 
 
   PM4PY offers simplified interface to import/export event logs. This provides restricted set of choices in comparison to normal interface moreover PM4PY also provides s simple interface to convert the formats of log data objects.
@@ -35,10 +34,9 @@
    [Click Here!](pm4pyimportcsv.pdf) for step-by-step guide for importing CSV files.
    
    
-   
   __Converting Event Data__
   
-  In this section, we describe how to convert event log objects from one object type to another object type. As mentioned in the previous section, the conversion functionality of event logs is located in pm4py.objects.conversion.log.converter. There are three objects, which we are able to 'switch' between, i.e., Event Log, Event Stream and Data Frame objects. Please refer to the previous code snippet for an example of applying log conversion (applied when importing a CSV object). Finally, note that most algorithms internally use the converters, in order to be able to handle an input event data object of any form. In such a case, the default parameters are used.
+  In this section, we describe how to convert event log objects from one object type to another object type. the conversion functionality of event logs is located in pm4py.objects.conversion.log.converter. There are three objects, which we are able to 'switch' between, i.e., Event Log, Event Stream and Data Frame objects. Finally, note that most algorithms internally use the converters, in order to be able to handle an input event data object of any form. In such a case, the default parameters are used.
   
   | Variant | Parameter Key | Type | Default | Description|
   |:---|:----:|:---:|:---:|:---|
@@ -52,7 +50,6 @@
   |TO_DATA_FRAME|CASE_ATTRIBUTE_PREFIX|string|'case:'|(Same as TO_EVENT_STREAM; will only be applied if input is an Event Log object, i.e., which will first be translated to an Event Stream Object.)|
   | |DEEP_COPY|boolean|false|(Same as TO_EVENT_STREAM)|
   
-  
   __Exporting Data__
   
   [Click Here!](pm4pyexportieeexes.pdf) for step by step guide for exporting IEEE XES files
@@ -61,3 +58,24 @@
   
   *Note - At the present time PM4PY works with pandsas libaries to import data.As long as data can be loaded into a Pandas dataframe, PM4Py is reasonably able to work with such files. You can check the files supported by python pandas library [here!](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)*
   
+  __Filtering Event Data__
+  
+  In PM4PY it possible to filter event data based on following filtering criterias.
+  
+  1. Filtering event data by time frames.
+  
+  2. Filtering event on case performance / time interval.
+  
+  3. Filtering events on start activites. 
+  
+  4. Filtering events on end activites.
+  
+  5. Filtering on varients.
+      
+      Variants is set of cases that share the same control flow perspective, so a set of cases that share the same classified events(activites) in the same order.
+      
+  6. Filtering events on attribute values.
+  
+  7. Filtering events on numeric attribute values.
+  
+      
