@@ -93,4 +93,14 @@
   
       Find user manual for filtering event data by numeric attribute values [here!](pm4pyfilteringnumericattriburevalues.pdf)
   
-      
+  __Process Discovery algorithms in PM4PY__
+  
+  Process Discovery algorithms want to find a suitable process model that describes the order of events/activities that are executed during a process execution.
+  In the following, we made up an overview to visualize the advantages and disadvantages of the mining algorithms.
+  
+  | Alpha | Alpha+ | Heuristic | 	Inductive |
+  |---|---|---|---|
+  |Cannot handle loops of length one and length two |Can handle loops of length one and length two | Takes frequency into account | Can handle invisible tasks |
+  | Invisible and duplicated tasks cannot be discovered | Invisible and duplicated tasks cannot be discovered | Detects short loops | Model is sound |
+  | Discovered model might not be sound | Discovered model might not be sound | Does not guarantee a sound model | Most used process mining algorithm |
+  |Weak against noise| Weak against noise |
