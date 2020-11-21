@@ -143,4 +143,4 @@
 A marking is a state in the Petri net that associates each place to a number of tokens and is uniquely associated to a set of enabled transitions that could be fired according to the marking.
 Process Discovery algorithms implemented in pm4py returns a Petri net along with an initial marking and a final marking. An initial marking is the initial state of execution of a process, a final marking is a state that should be reached at the end of the execution of the process.
 
-Find more information on petri net Importing/ Exporting,Creating petri net and petrinet properties [here!]()
+Find more information on petri net Importing/ Exporting,Creating petri net and petrinet properties [here!](petrinet.pdf)
