@@ -64,15 +64,15 @@
   
   1. Filtering event data by time frames.
   
-   Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.docx)
+      Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.docx)
   
   2. Filtering event on case performance / time interval.
    
-   Find user manual for filtering event data by case performace / time interval [here!](PM4PYfilteringCAsePerformance.pdf)
+      Find user manual for filtering event data by case performace / time interval [here!](PM4PYfilteringCAsePerformance.pdf)
    
   3. Filtering events on start activites. 
    
-   Find user manual for filtering event data by start activities [here!](pm4pyfilteringstart.pdf)
+      Find user manual for filtering event data by start activities [here!](pm4pyfilteringstart.pdf)
   
   4. Filtering events on end activites.
   
@@ -86,9 +86,11 @@
       
   6. Filtering events on attribute values.
   
-   Find user manual for filtering event data by attribute values [here!](pm4pyfilteringattributevalues.pdf)
+      Find user manual for filtering event data by attribute values [here!](pm4pyfilteringattributevalues.pdf)
       
   
   7. Filtering events on numeric attribute values.
+  
+      Find user manual for filtering event data by numeric attribute values [here!](pm4pyfilteringnumericattriburevalues.pdf)
   
       
