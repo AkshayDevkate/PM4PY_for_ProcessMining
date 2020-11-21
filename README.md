@@ -128,5 +128,5 @@
    *Inductive Miner infrequent: [ Discovering block-structured process models from event logs containing infrequent behaviour](http://www.padsweb.rwth-aachen.de/wvdaalst/publications/p761.pdf)*
    
    *nductive Miner directly-follows: [ Scalable process discovery with guarantees](http://www.processmining.org/_media/blogs/pub2015/bpmds_directly-follows_mining.pdf)*
-     
-    
+      
+   [Click here!]() for inductive miner variants and code snippets to implement.
