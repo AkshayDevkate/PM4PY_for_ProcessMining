@@ -129,4 +129,4 @@
    
    *nductive Miner directly-follows: [ Scalable process discovery with guarantees](http://www.processmining.org/_media/blogs/pub2015/bpmds_directly-follows_mining.pdf)*
       
-   [Click here!]() for inductive miner variants and code snippets to implement.
+   [Click here!](pm4pyinductiveminer.pdf) for inductive miner variants and code snippets to implement.
