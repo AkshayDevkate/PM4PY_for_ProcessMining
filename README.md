@@ -93,7 +93,7 @@
   
       Find user manual for filtering event data by numeric attribute values [here!](pm4pyfilteringnumericattriburevalues.pdf)
   
-  __Process Discovery algorithms in PM4PY__
+  ## Process Discovery algorithms in PM4PY
   
   Process Discovery algorithms want to find a suitable process model that describes the order of events/activities that are executed during a process execution.
   In the following, we made up an overview to visualize the advantages and disadvantages of the mining algorithms.
@@ -137,3 +137,10 @@
   
   [Click here!](heuristicminer.pdf) for Heuristic miner variants and code snippets to implement.
   
+  ## Petri Net
+  
+  Petri nets are one of the most common formalism to express a process model. A Petri net is a directed bipartite graph, in which the nodes represent transitions and places. Arcs are connecting places to transitions and transitions to places, and have an associated weight. A transition can fire if each of its input places contains a number of tokens that is at least equal to the weight of the arc connecting the place to the transition. When a transition is fired, then tokens are removed from the input places according to the weight of the input arc, and are added to the output places according to the weight of the output arc.
+A marking is a state in the Petri net that associates each place to a number of tokens and is uniquely associated to a set of enabled transitions that could be fired according to the marking.
+Process Discovery algorithms implemented in pm4py returns a Petri net along with an initial marking and a final marking. An initial marking is the initial state of execution of a process, a final marking is a state that should be reached at the end of the execution of the process.
+
+Find more information on petri net Importing/ Exporting,Creating petri net and petrinet properties [here!]()
