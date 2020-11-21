@@ -121,7 +121,7 @@
   
   __2. Inductive Miner__ 
   
-   In PM4Py, we offer an implementation of the inductive miner (IM), of the inductive miner infrequent (IMf), and of the inductive miner directly-follows (IMd) algorithm. The papers describing the approaches are the following:
+   PM4Py,  offer an implementation of the inductive miner (IM), of the inductive miner infrequent (IMf), and of the inductive miner directly-follows (IMd)    algorithm. The papers describing the approaches are the following:
    
    *Inducitve Miner: [Discovering block-structured process models from event logs-a constructive approach](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.396.197&rep=rep1&type=pdf)*
    
