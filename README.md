@@ -106,7 +106,8 @@
   |Weak against noise| Weak against noise |
 
 
- 1. Alpha Miner 
+ 
+ __1. Alpha Miner and Alpha miner+__
  
   The alpha miner is one of the most known Process Discovery algorithm and is able to find:
 
@@ -117,3 +118,9 @@
    A final marking that describes the status of the Petri net model when a execution ends
    
   Find documentation on Alpha miner [here!]()
+  
+  __2. Inductive Miner__ 
+  
+     In PM4Py, we offer an implementation of the inductive miner (IM), of the inductive miner infrequent (IMf), and of the inductive miner directly-follows (IMd) algorithm. The papers describing the approaches are the following:
+     
+    
