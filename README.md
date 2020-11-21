@@ -134,3 +134,6 @@
    __3. Heuristic Miner__
    
   Heuristics Miner is an algorithm that acts on the Directly-Follows Graph, providing way to handle with noise and to find common constructs (dependency between    two activities, AND). The output of the Heuristics Miner is an Heuristics Net, so an object that contains the activities and the relationships between them. The Heuristics Net can be then converted into a Petri net. The paper can be visited by clicking on the upcoming link: [this link](https://www.semanticscholar.org/paper/Process-mining-with-the-HeuristicsMiner-algorithm-Weijters-Aalst/e61c748f9a2df9c3fbda3a8361fdc3d847b7e3ae?p2df)).
+  
+  [Click here!](pm4pyinductiveminer.pdf) for Heuristic miner variants and code snippets to implement.
+  
