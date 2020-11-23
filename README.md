@@ -64,7 +64,7 @@
   
   1. Filtering event data by time frames.
   
-      Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.docx)
+      Find user manual for filtering event data by time frames by pm4py [here!](PM4PYfilteringTimeFrame.pdf)
   
   2. Filtering event on case performance / time interval.
    
@@ -117,7 +117,7 @@
 
    A final marking that describes the status of the Petri net model when a execution ends
    
-  Find documentation on Alpha miner [here!]()
+  Find documentation on Alpha miner [here!](alphaminer.pdf)
   
   __2. Inductive Miner__ 
   
